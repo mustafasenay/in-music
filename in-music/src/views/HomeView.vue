@@ -22,10 +22,10 @@
     </div>
     <div class="container">
       <div class="row">
-        <div class="col-md-6 col-6 home-view-collage-first">
+        <div class="col-md-6 col-4 home-view-collage-first">
           <img src="../assets/music-5.jpg" alt="">
         </div>
-        <div class="col-md-6 col-6 home-view-collage-second">
+        <div class="col-md-6 col-8 home-view-collage-second">
           <img src="../assets/music-3.jpg" alt="">
         </div>
       </div>
@@ -52,7 +52,7 @@
       <div class="row">
         <div class="col-md-7 col-7 home-view-collage2-first">
           <img src="../assets/music-5.jpg" alt="">
-          <img src="../assets/music-5.jpg" alt="">
+          <img src="../assets/music-1.jpg" alt="">
         </div>
         <div class="col-md-5 col-5 home-view-collage2-second">
           <img src="../assets/music-3.jpg" alt="">
@@ -84,7 +84,7 @@
             <img class="middle-collage-section-img-first" src="../assets/music-8.jpg" alt="">
           </div>
           <div class="col-md-6 col-6">
-            <img class="middle-collage-section-img-second" src="../assets/music-7.jpg" alt="">
+            <img class="middle-collage-section-img-second" src="../assets/music-9.jpg" alt="">
           </div>
         </div>
       </div>
@@ -178,10 +178,10 @@ export default {
 
   .home-view-collage-first{
     width: 50%;
-    height: 100%;
+    height: 45vw;
     position: relative;
-    left:8%;
-    margin-top: 10%!important;
+    left: 5%;
+    margin-top: 3%!important;
   }
   
   .home-view-collage-first img{
@@ -198,7 +198,7 @@ export default {
   .home-view-collage-second img{
     width: 100%;
     height: 100%;
-    padding: 25%;
+    padding: 20%;
   }
 
   .media-section-info{
@@ -214,7 +214,7 @@ export default {
   .home-view-collage2-first img {
     width: 110%;
     height: 100%;
-    padding: 25%;
+    padding: 20%;
     background-color: #b6ffc0;
   }
 
@@ -222,8 +222,8 @@ export default {
     width: 50%;
     height: 100%;
     position: relative;
-    right:5%;
-    margin-top: 15%!important;
+    right: 0;
+    margin-top: 9%!important;
   }
 
   .home-view-collage2-second img {
@@ -251,17 +251,17 @@ export default {
     width: 130%;
     height: 40vw;
     position: relative;
-    margin-top: 50%;
-    left: -45%;
+    margin-top: 37%;
+    left: -20%;
     padding: 10%;
   }
 
   .middle-collage-section-img-second{
-    width: 140%;
+    width: 120%;
     height: 50vw;
     position: relative;
-    margin-top: 30%;
-    right: -5%;
+    margin-top: 20%;
+    right: -2%;
     padding: 10%;
   }
 </style>
